@@ -126,7 +126,6 @@ const PersonalGrowthSection = () => {
           ref={containerRef}
           className="relative h-[50vh] flex items-center justify-center bg-white "
         >
-          {/* Images */}
           {images.map((src, index) => (
             <div
               key={index}
@@ -148,7 +147,7 @@ const PersonalGrowthSection = () => {
                 Personal Growth
               </h1>
             </div>
-            <h2 className="text-4xl font-bold text-gray-800 leading-tight">
+            <h2 className="text-5xl font-bold text-gray-800 leading-tight">
               A gentle space to
               <br />
               understand yourself
