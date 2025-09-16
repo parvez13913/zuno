@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import HorizontalScrollSection from "@/components/Horizontal-scroll-section";
+import ImageScrollSection from "@/components/Image-scroll-section";
 import OverlayScrollSection from "@/components/Overlay-scroll-section";
 import PersonalGrowthSection from "@/components/Personal-growth-section";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <PersonalGrowthSection />
       <HorizontalScrollSection />
       <OverlayScrollSection />
+      <ImageScrollSection />
     </div>
   );
 }
