@@ -1,3 +1,4 @@
+import FaqSection from "@/components/Faq-section";
 import Header from "@/components/Header";
 import HorizontalScrollSection from "@/components/Horizontal-scroll-section";
 import ImageCarouselSection from "@/components/Image-carousel-section";
@@ -14,6 +15,7 @@ export default function Home() {
       <OverlayScrollSection />
       <ImageScrollSection />
       <ImageCarouselSection />
+      <FaqSection />
     </div>
   );
 }
